@@ -1,0 +1,44 @@
+{
+  "name": "vue-admanager",
+  "version": "0.0.1",
+  "description": "Display adManager banners on you vue app",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib/**/*"],
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "yarn test && yarn run lint",
+    "preversion": "yarn run lint",
+    "version": "yarn run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebSzcze/vue-admanager.git"
+  },
+  "keywords": [
+    "vue",
+    "adManager",
+    "google",
+    "ads"
+  ],
+  "author": "Sebastian Szczepanski <sebastian@ably.pl> (http://ably.pl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SebSzcze/vue-admanager/issues"
+  },
+  "homepage": "https://github.com/SebSzcze/vue-admanager#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.22",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.0",
+    "ts-jest": "^24.1.0",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.2"
+  }
+}

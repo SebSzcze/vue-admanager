@@ -1,0 +1,60 @@
+Arguments: 
+  /Users/ably/.nvm/versions/node/v10.14.2/bin/node /Users/ably/.nvm/versions/node/v10.14.2/bin/yarn add typescipt -D
+
+PATH: 
+  /Users/ably/.avn/bin:/Users/ably/.nvm/versions/node/v10.14.2/bin:/usr/local/sbin:/usr/local/Cellar:/Users/ably/.composer/vendor/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.14.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/typescipt: Not found
+      at Request.params.callback [as _callback] (/Users/ably/.nvm/versions/node/v10.14.2/lib/node_modules/yarn/lib/cli.js:66926:18)
+      at Request.self.callback (/Users/ably/.nvm/versions/node/v10.14.2/lib/node_modules/yarn/lib/cli.js:140564:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/Users/ably/.nvm/versions/node/v10.14.2/lib/node_modules/yarn/lib/cli.js:141536:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/Users/ably/.nvm/versions/node/v10.14.2/lib/node_modules/yarn/lib/cli.js:141458:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "vue-admanager",
+    "version": "0.0.1",
+    "description": "Display adManager banners on you vue app",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SebSzcze/vue-admanager.git"
+    },
+    "keywords": [
+      "vue",
+      "adManager",
+      "google",
+      "ads"
+    ],
+    "author": "Sebastian Szczepanski <sebastian@ably.pl> (http://ably.pl)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/SebSzcze/vue-admanager/issues"
+    },
+    "homepage": "https://github.com/SebSzcze/vue-admanager#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
